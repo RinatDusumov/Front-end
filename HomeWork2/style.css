@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hat{
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+h1{
+    color:blue;
+    text-align: center;
+    margin: 50px;
+}
+div{
+    margin: 0px 15px;
+    padding: 20px;
+    color: red;
+    font-size: 25px;
+    background-color:aquamarine;
+}
+.img{
+    width: 180px;
+    height: 100px;
+    margin: 20px 15px;
+}
