@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 40%;
+}
+header{
+    padding: 30px;
+    color: white;
+    background-color:orange;
+    text-align: center;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+}
+div{
+    margin: 20px;
+    border: 1px solid orange;
+}
+p{
+    margin: 20px;
+}
