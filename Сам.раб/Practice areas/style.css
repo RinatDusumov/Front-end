@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+#block{
+    display: inline-block;
+    width: 100%;
+}
+#one, #one p{
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+    color: orange;
+    font-size: 30px;
+}
+nav{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    position:relative;
+    top: 0;
+    left: 700px;
+    padding: 20px
+}
+.li{
+    color: orange;
+}
+#block_1{
+    margin-top: 30px;
+    text-align: center;
+    color: orange;
+    font-size: 18px;
+    height: 700px;
+}
+#block_1 h3{
+    color: black;
+}
+#Shoplifting{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20%;
+    position: relative;
+    top: 70px;
+    left: -400px;
+}
+.icons #p_1{
+    font-size:25px;
+    color: black;
+    position: relative;
+    top: 80px;
+    left: -380px;
+
+}
+#Weapon{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20%;
+    position: relative;
+    top: -165px;
+    left: -150px;
+}
+.icons #p_2{
+    font-size:25px;
+    color: black;
+    position: relative;
+    top: -150px;
+    left: -120px;
+}
+#Family{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20%;
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+.icons #p_3{
+    font-size:25px;
+    color: black;
+    position: relative;
+    top: -383px;
+    left: 120px;
+}
+#Sexual{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20%;
+    position: relative;
+    top: -633px;
+    left: 350px;
+}
+.icons #p_4{
+    font-size:25px;
+    color: black;
+    position: relative;
+    top: -617px;
+    left: 370px;
+}
+#lorem{
+    position: relative;
+    top: -650px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+}
+.read{
+    color: white;
+}
+button{
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin: 40px 0;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: orange;
+    position: relative;
+    top: -750px;
+}
+footer{
+    background-color: dimgray;
+}
+#footer{
+    padding: 80px;
+}
+#jd{
+    display: inline-block;
+    width: 40%;
+}
+#jd b, #address b{
+    color: orange;
+    font-size: 30px;
+}
+#jd p{
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+#address{
+    width: 40%;
+    position: relative;
+    top: -140px;
+    left: 650px;
+}
+#address p{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
