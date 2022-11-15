@@ -38,7 +38,7 @@ a{
     color: orange;
     font-size: 20px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 #block_3 h3{
     font-size: 25px;
@@ -53,21 +53,32 @@ a{
 #icons img{
     width: 200px;
     height: 200px;
-    margin-right: 50px;
+    margin: 10px;
     border: 1px solid black;
     border-radius: 20%;
     padding: 10px;
     background-color: white;
 }
+.color{
+    border: 1px solid orange;
+    border-radius: 20%;
+    margin: 0px 10px;
+}
+.color a{
+    color: black;
+}
+.color:hover {
+    background-color: orange;
+}
 #p{
     padding: 10px;
-    padding-left: 45px;
+    padding-left: 60px;
     font-size: 25px;
 }
 #off{
     padding: 10px;
     font-size: 25px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 #block_3 #lorem{
     margin: 20px 100px 10px;
