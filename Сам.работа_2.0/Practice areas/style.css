@@ -65,8 +65,9 @@ a{
 .color a{
     color: black;
 }
-.color:hover {
+.color:hover, .color a:hover {
     background-color: orange;
+    color: white;
 }
 #p{
     padding: 10px;
