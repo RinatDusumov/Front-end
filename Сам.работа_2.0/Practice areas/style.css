@@ -98,13 +98,16 @@ a{
     font-size: 20px;
     color: white;
 }
+footer{
+    background-color:darkgray;
+    height: 400px;
+}
 #block_6{
     display: flex;
-    background-color:darkgray;
 }
 #block_6 div{
     width: 50%;
-    margin: 100px;
+    margin: 100px 100px 10px 100px;
 }
 #block_6 h3{
     font-size: 30px;
@@ -114,4 +117,22 @@ a{
     font-size: 20px;
     margin: 10px 0;
     color: white;
+}
+footer hr{
+    height: 5px;
+    background-color:white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#net{
+    text-align: center;
+}
+#net .net{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+#insta{
+    width: 36px;
+    height: 36px;
 }
