@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background-color:whitesmoke;
+    padding: 20px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 7;
+}
+header p{
+    margin-left: 30px;
+    color: orange;
+    font-size: 30px;
+}
+nav{
+    margin-left: 750px;
+}
+li{
+    display:inline-flex;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+a{
+    color:orange;
+}
+.read{
+    font-size: 20px;
+    color: white;
+}
+#block_5{
+    height: 670px;
+    display: flex;
+}#block_5 div{
+    width: 50%;
+}
+#block_5 img{
+    width: 600px;
+    height: 350px;
+    position: relative;
+    top: 120px;
+    right: 80px;
+}
+#forma{
+    margin: 100px;
+}  
+#block_5 h3{
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+#block_5 input{
+    height: 30px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+#message{
+    margin-top: 40px;
+}
+#five_button{
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 10px 30px;
+    background-color: orange;
+}
+#block_6{
+    display: flex;
+    background-color:darkgray;
+}
+#block_6 div{
+    width: 50%;
+    margin: 100px;
+}
+#block_6 h3{
+    font-size: 30px;
+    color:orange;
+}
+#block_6 p{
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+}
