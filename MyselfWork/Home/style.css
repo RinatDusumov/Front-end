@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background-color:whitesmoke;
+    padding: 20px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 7;
+}
+header p{
+    margin-left: 30px;
+    color: orange;
+    font-size: 30px;
+}
+nav{
+    margin-left: 750px;
+}
+li{
+    display:inline-flex;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+a{
+    color:orange;
+}
+img{
+    width: 750px;
+    height: 650px;
+}
+#block_1{
+    display: flex;
+    height: 670px;
+}
+#block_1 h1{
+    width: 60%;
+    font-size: 45px;
+    margin-top: 150px;
+}
+#block_1 p{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 90%;
+}
+#one_button{
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin: 100px 0;
+    padding: 10px 30px;
+    background-color: orange;
+}
+.read{
+    font-size: 20px;
+    color: white;
+}
+#block_2{
+    display: flex;
+    height: 670px;
+    background-color: whitesmoke;
+}
+#one{
+    width: 40%;
+}
+#block_2 h3{
+    margin: 200px 0 30px 100px;
+    font-size: 25px;
+}
+#block_2 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+#block_2 img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 120px;
+    left: 200px;
+    z-index: 0;
+}
+#two_button{
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin: 100px 100px;
+    padding: 10px 30px;
+    background-color: orange;
+}
+#block_3{
+    height: 670px;
+    background-color:white;
+}
+#block_3 #want{
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+#block_3 h3{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+#icons{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+#icons img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20%;
+    padding: 10px;
+    background-color: white;
+}
+.color{
+    border-radius: 20%;
+    margin: 0px 10px;
+}
+.color a{
+    color: black;
+}
+.color:hover, .color a:hover {
+    background-color: orange;
+    color: white;
+}
+#p{
+    padding: 10px;
+    padding-left: 60px;
+    font-size: 25px;
+}
+#off{
+    padding: 10px;
+    font-size: 25px;
+    padding-left: 30px;
+}
+#block_3 #lorem{
+    margin: 20px 100px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#but{
+    text-align: center;
+}
+#three_button{
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: orange;
+}
+#block_4{
+    height: 670px;
+    background-color: whitesmoke;
+    display: flex;
+}
+#block_4 div{
+    width: 50%;
+}
+#block_4 img{
+    height: 670px;
+    width: 600px;
+    margin-left: 135px;
+}
+#block_4 h3{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+#block_4 h5{
+    margin: 40px 130px;
+    font-size: 20px;
+}
+#block_4 p{
+    font-size: 18px;
+    margin: 0 130px;
+}
+#four_button{
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin: 90px 0 0 100px;
+    padding: 10px 30px;
+    background-color: orange;
+}
+#block_5{
+    height: 670px;
+    display: flex;
+}#block_5 div{
+    width: 50%;
+}
+#block_5 img{
+    width: 600px;
+    height: 350px;
+    position: relative;
+    top: 120px;
+    right: 80px;
+}
+#forma{
+    margin: 100px;
+}  
+#block_5 h3{
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+#block_5 input{
+    height: 30px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+#message{
+    margin-top: 30px;
+    height: 100px;
+    width: 500px;
+}
+#five_button{
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin-top: 70px;
+    padding: 10px 30px;
+    background-color: orange;
+}
+footer{
+    background-color:darkgray;
+    height: 400px;
+}
+#block_6{
+    display: flex;
+}
+#block_6 div{
+    width: 50%;
+    margin: 100px 100px 10px 100px;
+}
+#block_6 h3{
+    font-size: 30px;
+    color:orange;
+}
+#block_6 p{
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+}
+footer hr{
+    height: 5px;
+    background-color:white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#net{
+    text-align: center;
+}
+#net .net{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+#insta{
+    width: 36px;
+    height: 36px;
+}
