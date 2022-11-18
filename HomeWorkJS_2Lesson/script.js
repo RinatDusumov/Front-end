@@ -71,26 +71,18 @@ console.log(g.sort());
 
 // task 9
 let key = +prompt("Напишите целое число");
+let count = 0;
+while (count < 7) {
 if (key % 2 == 0) {
-    console.log(key + 1);
-    console.log(key + 3);
-    console.log(key + 5);
-    console.log(key + 7);
-    console.log(key + 9);
-    console.log(key + 11);
-    console.log(key + 13);
+    console.log(key += 2);
+    count++;
 } else {
-    console.log(key + 2);
-    console.log(key + 4);
-    console.log(key + 6);
-    console.log(key + 8);
-    console.log(key + 10);
-    console.log(key + 12);
-    console.log(key + 14);
+    console.log(key += 2);
+    count++;
 } 
+}
 
 // task 10 
-
 let li = [45, 5, 33, 10, 15, 9];
 for (let i = 0; i < li.length; i++) {
     if (li[i] >= 15) {
@@ -132,7 +124,6 @@ for (let i = 0; i < li.length; i++) {
 console.log(sum1);
 
 // task 15
-console.log("");
 let sum2 = 0;
 let sum3 = 0;
 for (let i = 0; i < li.length; i++) {
