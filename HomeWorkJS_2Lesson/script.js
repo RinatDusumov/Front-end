@@ -73,13 +73,16 @@ console.log(g.sort());
 let key = +prompt("Напишите целое число");
 let count = 0;
 while (count < 7) {
-if (key % 2 == 0) {
-    console.log(key += 2);
-    count++;
-} else {
-    console.log(key += 2);
-    count++;
-} 
+    if (key % 2 == 0) {
+        console.log(key += 1);
+        count++;
+            if (key % 2 != 0) 
+            console.log(key += 2);
+            count++;
+    } else {
+        console.log(key += 2);
+        count++;
+    } 
 }
 
 // task 10 
