@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 30px;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+hr{
+    width: 120px;
+    height: 1px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+#one{
+    border: 2px solid black;
+    margin: 0px 30px 15px;
+    padding: 10px;
+    background-color:cyan;
+}
+.img{
+    width: 150px;
+    height: 100px;
+}
+#grammofon{
+    color: blueviolet;
+    font-size: 15px;
+}
+#zakup{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+#two{
+    border: 2px solid black;
+    margin: 0px 30px 15px;
+    padding: 10px;
+    background-color:cornsilk;
+}
+#school{
+    color:goldenrod;
+    font-size: 15px;
+}
+#lesson{
+    color: blueviolet;
+    font-size: 15px;
+    text-decoration: none;
+}
+#three{
+    border: 2px solid black;
+    margin: 0px 30px 15px;
+    padding: 10px;
+    background-color:aquamarine;
+}
+#love{
+    color:brown;
+    font-size: 15px;
+}
+#world{
+    color: fuchsia;
+    font-size: 15px;
+    text-decoration: none;
+}
+.net{
+    width: 20px;
+    height: 20px;
+}
+.center{
+    border: 2px solid black;
+    text-align: center;
+    margin: 0px 30px 30px;
+    background-color: greenyellow;
+}
