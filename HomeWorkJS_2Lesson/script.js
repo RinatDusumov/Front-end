@@ -60,14 +60,11 @@ for (let i = 1; i <= 9; i++) {
 console.log("Finish"); 
 
 // task 8
-let c = [24, 43, 50, 99, 40, 25, 15];
-let g = [];
-for (let i = 0; i < 7; i++) {
-    if (c[i] % 5 == 0) {
-        g.push(c[i]);
+for (let i = 0; i < 100; i++) {
+    if (i > 0 && i % 5 == 0) {
+        console.log(i);
     }
 }
-console.log(g.sort()); 
 
 // task 9
 let key = +prompt("Напишите целое число");
@@ -102,7 +99,7 @@ for (let i = 0; i < li.length; i++) {
 
 // task 12
 for (let i = 0; i < li.length; i++) {
-    if (li[i] % 3 == 0) {
+    if (i % 3 == 0) {
         console.log(li[i]);
     }
 } 
