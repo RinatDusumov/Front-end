@@ -120,41 +120,123 @@ for (let i = 0; i < img.length; i++) {
 }
 
 
-/* task 5
-    Есть массив из объектов. Каждый объект имеет свойства en и ru. В свойстве en написано слово 
+/* task 5, 6
+    5. Есть массив из объектов. Каждый объект имеет свойства en и ru. В свойстве en написано слово 
     на английском, а в свойстве ru на русском. Необходимо реализовать карточки, при нажатии на 
     которые слова с русского меняются на английский и обратно.  
     Подсказка. В каждой карточке должно быть два параграфа. В одном написано на русском, а 
     во втором на английском и при нажатии на карточку один параграф получает класс с 
     display none а второй с display block.
+    6. Добавить внизу кнопки RU и EN при нажатии на которые все карточки переключаются на 
+    русский или английский соответственно. 
 */
+
+let block = document.createElement('div');
+let script = document.querySelector('script');
+script.before(block);
 
 let array_2 = [];
 array_2[0] = {
-    en: "hello",
-    ru: "привет"
+    en: "hello, world",
+    ru: "привет, мир"
 }
 array_2[1] = {
-    en: "hello",
-    ru: "привет"
+    en: "love the mountains",
+    ru: "люблю горы"
 }
 array_2[2] = {
-    en: "hello",
-    ru: "привет"
+    en: "learning to program",
+    ru: "учусь программированию"
 }
 
 for (let i = 0; i < array_2.length; i++) {
     let object = document.createElement('div');
+        object.className = "object" + i;
+        object.style.display = "inline-block";
+        object.style.margin = "15px 15px";
+        object.style.padding = "20px";
+        object.style.boxSizing = "border-box"
+        object.style.width = "200px";
+        object.style.height = "300px";
+        object.style.border = "1px solid black";
+    block.append(object);
 
-    object.style.display = "inline-block";
-    object.style.margin = "15px 15px";
-    object.style.padding = "20px";
-    object.style.boxSizing = "border-box"
-    object.style.width = "50px";
-    object.style.height = "100px";
-    object.style.border = "1px solid black";
+    let p1 = document.createElement('p');
+    p1.innerText = array_2[i].en;
+    object.append(p1);
+    let p2 = document.createElement('p');
+    p2.innerText = array_2[i].ru;
+    object.append(p2);
 
-    let script = document.querySelector('script')
-    script.before(object);
+    object.addEventListener("click", cardMouse);
+    
+    function cardMouse() {
+        p1.innerText = array_2[i].ru;
+        p2.innerText = array_2[i].en;
+        object.addEventListener("click", cardMouse2);
+    }
+    function cardMouse2() {
+        p1.innerText = array_2[i].en;
+        p2.innerText = array_2[i].ru;
+    }
 }
+
+let block2 = document.createElement('div');
+let script2 = document.querySelector('script');
+script2.before(block2);
+
+let buttonEn = document.createElement('button');
+block2.append(buttonEn);
+buttonEn.innerText = "EN";
+buttonEn.style.marginLeft = "30px";
+buttonEn.style.marginRight = "30px";
+buttonEn.style.marginTop = "40px";
+buttonEn.style.width = "70px";
+buttonEn.style.height = "30px";
+buttonEn.style.borderRadius = "40%";
+
+let buttonRu = document.createElement('button');
+block2.append(buttonRu);
+buttonRu.innerText = "RU";
+buttonRu.style.width = "70px";
+buttonRu.style.borderRadius = "40%";
+buttonRu.style.height = "30px";
+
+for (let i = 0; i < array_2.length; i++) {
+    
+    buttonEn.addEventListener("click", clickButtonEn);
+    function clickButtonEn() {
+        let button = document.querySelectorAll('.object0 > p');
+        for (let elem of button) {
+            elem.innerText = array_2[0].en;
+        }
+        let button2 = document.querySelectorAll('.object1 > p');
+        for (let elem of button2) {
+            elem.innerText = array_2[1].en;
+        }
+        let button3 = document.querySelectorAll('.object2 > p');
+        for (let elem of button3) {
+            elem.innerText = array_2[2].en
+        }
+    }
+    buttonRu.addEventListener("click", clickButtonRu);
+    function clickButtonRu() {
+        let button = document.querySelectorAll('.object0 > p');
+        for (let elem of button) {
+            elem.innerText = array_2[0].ru;
+        }
+        let button2 = document.querySelectorAll('.object1 > p');
+        for (let elem of button2) {
+            elem.innerText = array_2[1].ru;
+        }
+        let button3 = document.querySelectorAll('.object2 > p');
+        for (let elem of button3) {
+            elem.innerText = array_2[2].ru
+        }
+    }
+}
+
+
+
+
 
